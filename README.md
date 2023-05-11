@@ -1,82 +1,67 @@
-<img src="Shadowsocks.WPF/Resources/ssw128.png" alt="[logo]" width="48"/> Shadowsocks for Windows
-=======================
+# ✔️Jlaive
 
-[![Build](https://github.com/shadowsocks/shadowsocks-windows/workflows/Build/badge.svg)](https://github.com/shadowsocks/shadowsocks-windows/actions?query=workflow%3ABuild)
-[![Release](https://github.com/shadowsocks/shadowsocks-windows/workflows/Release/badge.svg)](https://github.com/shadowsocks/shadowsocks-windows/actions?query=workflow%3ARelease)
+Jlaive is an antivirus evasion tool that can convert executables into undetectable batch files. Obfuscated .NET assemblies are not guaranteed to work.
 
-## Features
+<h1 align="center">
+    <b><a href="https://t.me/helios3535">Telegram: @helios3535</a></b>
+</h1>
 
-- Connect to Shadowsocks servers.
-- Automatically set system proxy.
-- SIP002 URL scheme.
-- SIP003 plugins.
-- SIP008 online configuration delivery.
 
-## Downloads
+![Blue and White Minimalist Company Profile Poster Portrait](https://user-images.githubusercontent.com/119069565/232226861-d2d39f1c-89a5-432f-b5e4-f46589c945ce.png)
 
-Download from [releases](https://github.com/shadowsocks/shadowsocks-windows/releases).
 
-## Usage
 
-- 🚀
 
-## PAC
+## ✔️Features
+- .NET/Native (x64) support
+- AES 256 /XOR encryption
+- Compression
+- Anti Debug
+- Anti VM
+- Melt file (self delete)
+- Bind files
+- AMSI bypass
+- ETW bypass
+- API unhooking
 
-- The PAC rules are generated from the geosite database in [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community).
-- Generation modes: whitelist mode and blacklist mode.
-- Domain groups: `geositeDirectGroups` and `geositeProxiedGroups`.
-    - `geositeDirectGroups` is initialized with `cn` and `geolocation-!cn@cn`.
-    - `geositeProxiedGroups` is initialized with `geolocation-!cn`.
-- To switch between different modes, modify the `geositePreferDirect` property in `gui-config.json`
-    - When `geositePreferDirect` is false (default), PAC works in whitelist mode. Exception rules are generated from `geositeDirectGroups`. Unmatched domains goes through the proxy.
-    - When `geositePreferDirect` is true, PAC works in blacklist mode. Blocking rules are generated from `geositeProxiedGroups`. Exception rules are generated from `geositeDirectGroups`. Unmatched domains are connected to directly.
-- Starting from 4.3.0.0, shadowsocks-windows defaults to whitelist mode with Chinese domains excluded from connecting via the proxy.
-- The new default values make sure that:
-    - When in whitelist mode, Chinese domains, including non-Chinese companies' Chinese CDNs, are connected to directly.
-    - When in blacklist mode, only non-Chinese domains goes through the proxy. Chinese domains, as well as non-Chinese companies' Chinese CDNs, are connected to directly.
+## ✔️Screenshots
 
-### User-defined rules
+![image](https://user-images.githubusercontent.com/119069565/204138386-4fe36a08-106b-4671-9679-37b8d5f11068.png)
+![image](https://media.discordapp.net/attachments/961905736139554876/982925618377281536/unknown.png)
 
-- To define your own PAC rules, it's recommended to use the `user-rule.txt` file.
-- You can also modify `pac.txt` directly. But your modifications won't persist after updating geosite from the upstream.
 
-## Development
 
-- IDE: Visual Studio 2019
-- Language: C# 9.0
-- SDK: .NET 5
+## ✔️Partner
 
-### Build
+Stitch : https://github.com/nathanlopez/Stitch
 
-1. Clone the repository recursively.
-```bash
-$ git clone --recursive https://github.com/shadowsocks/shadowsocks-windows.git
-```
-2. Open the repository in VS2019, switch to the _Release_ configuration, and build the solution.
+AsyncRAT : https://github.com/NYAN-x-CAT/AsyncRAT-C-Sharp
 
-### Contribute
+DcRat : https://github.com/qwqdanchun/DcRat
 
-`PR welcome`
+ElegyRAT : https://github.com/we1h0/ElegyRAT-C-Sharp
 
-You can use the [Source Browser](https://ss-windows.cube64128.xyz/) to review code online.
+VanillaRAT : https://github.com/DannyTheSloth/VanillaRAT
 
-## License
 
-Shadowsocks-windows is licensed under the [GPLv3](LICENSE.txt) license.
 
-```
-BouncyCastle.NetCore (MIT)       https://github.com/chrishaly/bc-csharp
-Caseless.Fody (MIT)              https://github.com/Fody/Caseless
-Costura.Fody (MIT)               https://github.com/Fody/Costura
-Fody (MIT)                       https://github.com/Fody/Fody
-GlobalHotKey (GPLv3)             https://github.com/kirmir/GlobalHotKey
-MdXaml (MIT)                     https://github.com/whistyun/MdXaml
-Newtonsoft.Json (MIT)            https://www.newtonsoft.com/json
-Privoxy (GPLv2)                  https://www.privoxy.org
-ReactiveUI.WPF (MIT)             https://github.com/reactiveui/ReactiveUI
-ReactiveUI.Events.WPF (MIT)      https://github.com/reactiveui/ReactiveUI
-ReactiveUI.Fody (MIT)            https://github.com/reactiveui/ReactiveUI
-ReactiveUI.Validation (MIT)      https://github.com/reactiveui/ReactiveUI.Validation
-WPFLocalizationExtension (MS-PL) https://github.com/XAMLMarkupExtensions/WPFLocalizationExtension/
-ZXing.Net (Apache 2.0)           https://github.com/micjahn/ZXing.Net
-```
+
+
+## ✔️Known issues
+
+- `Hidden` option does not work on Windows Terminal.
+- Not compatible with Python EXE.
+
+## ✔️To-do
+
+- Remove the use of `Add-Type` for decryption and decompression
+
+## ✔️Credits
+
+C# RunPE: [https://github.com/nettitude/RunPE](https://github.com/nettitude/RunPE)
+
+SharpUnhooker: [https://github.com/GetRektBoy724/SharpUnhooker](https://github.com/GetRektBoy724/SharpUnhooker)
+
+## ✔️Disclaimer
+This project was made for educational purposes only. I am not responsible if you choose to use this illegally/maliciously.
+![image](https://media.discordapp.net/attachments/959762900443070485/987900379863846962/Untitled.png)
