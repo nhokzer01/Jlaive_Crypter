@@ -13,7 +13,7 @@ namespace Shadowsocks.Net
     public class CachedNetworkStream : Stream
     {
         // 256 byte first packet buffer should enough for 99.999...% situation
-        // socks5: 0x05 0x....
+        // socks5: 0x05 0xx4....
         // http-pac: GET /pac HTTP/1.1
         // http-proxy: /[a-z]+ .+ HTTP\/1\.[01]/i
 
