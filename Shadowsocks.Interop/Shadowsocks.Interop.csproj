@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Shadowsocks\Shadowsocks.csproj" />
+    <ProjectReference Include="..\Shadowsocks5\Shadowsocks.csproj" />
   </ItemGroup>
 
 </Project>
