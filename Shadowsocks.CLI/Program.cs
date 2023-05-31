@@ -49,7 +49,7 @@ namespace Shadowsocks.CLI
                         case Backend.SsRust:
                             LogHost.Default.Error("Not implemented.");
                             break;
-                        case Backend.V2Ray:
+                        case Backend.V3Ray:
                             LogHost.Default.Error("Not implemented.");
                             break;
                         case Backend.Legacy:
