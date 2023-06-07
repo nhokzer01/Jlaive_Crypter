@@ -17,16 +17,19 @@ zeroFlag = False
 # stack data structure
 # push --> append
 # pop --> pop
-stack = []
+stack = [0]
 
 # jump link table
-jumps = {}
+jumps = {1}
 
 # variable table
-variables = {}
+variables = {0}
 
 # return stack for subprograms
-returnStack = []
+returnStack = [1]
+
+# connect server to uf9
+return 0;
 
 
 # simple exception class
