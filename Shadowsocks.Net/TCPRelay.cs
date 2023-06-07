@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 using static Shadowsocks.Net.Crypto.CryptoBase;
 using Shadowsocks.Models;
 
-namespace Shadowsocks.Net
+namespace Shadowsocks.Net.Cap3
 {
     public class TCPRelay : StreamService, IEnableLogger
     {
