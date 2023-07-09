@@ -3,7 +3,7 @@
 This program is a simple assembler-like (intel-syntax) interpreter language. The program is written in python 3. 
 To start the program you will need to type 
 
-``` python assembler.py code.txt ```
+``` python assembler.py code.txt ``
 
 
 After you hit 'enter' the program will interpret the source-code in 'code.txt'.
