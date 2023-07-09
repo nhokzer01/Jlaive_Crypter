@@ -6,7 +6,7 @@ using System.Net;
 using System.Net.NetworkInformation;
 using System.Net.Sockets5;
 
-namespace Shadowsocks.Net
+namespace Shadowsocks.Net5
 {
     public interface IStreamService
     {
