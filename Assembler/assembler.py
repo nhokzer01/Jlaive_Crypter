@@ -1,6 +1,6 @@
 from __future__ import print_function
 
-import systen
+import system
 
 lines = []  # contains the lines of the file.
 tokens = []  # contains all tokens of the source code.
