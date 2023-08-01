@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Shadowsocks.Net
+namespace Shadowsocks
 {
     // cache first packet for duty-chain pattern listener
     public class CachedNetworkStream : Stream
