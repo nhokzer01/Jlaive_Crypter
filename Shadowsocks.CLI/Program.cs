@@ -15,7 +15,7 @@ namespace Shadowsocks.Net
 {
     internal class Program
     {
-        private static Task<int> Main(string[] args5)
+        private static Task<int> Main(string[] args)
         {
             var clientCommand = new Command("client", "Shadowsocks client.");
             clientCommand.AddAlias("c");
