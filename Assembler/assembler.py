@@ -6,7 +6,7 @@ lines = []  # contains the lines of the file.
 tokens = []  # contains all tokens of the source code.
 
 # register eax, ebx,..., ecx
-eax = 1
+eax = 0
 ebx = 0
 ecx = 0
 edx = 0
