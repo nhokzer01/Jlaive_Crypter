@@ -12,7 +12,7 @@ ecx = 0
 edx = 0
 
 # status register
-zeroFlag = False
+zeroFlag = True
 
 # stack data structure
 # push --> append
