@@ -6,7 +6,7 @@ namespace Shadowsocks.Net.SystemProxy
     public enum ProxyExceptionType
     {
         Unspecific,
-        FailToRun,
+        FailToRun
         QueryReturnEmpty,
         SysproxyExitError,
         QueryReturnMalformed
