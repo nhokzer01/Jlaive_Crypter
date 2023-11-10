@@ -15,7 +15,7 @@ Jlaive is an antivirus evasion tool that can convert executables into undetectab
 ## ✔️Features
 - .NET/Native (x64) support
 - AES 256 /XOR encryption
-- Compression
+- Compressions
 - Anti Debug
 - Anti VM
 - Melt file (self delete)
