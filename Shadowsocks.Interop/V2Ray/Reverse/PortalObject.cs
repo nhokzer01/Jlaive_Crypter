@@ -5,7 +5,7 @@ namespace Shadowsocks.Interop.V2Ray.Reverse
         /// <summary>
         /// Gets or sets the outbound tag for the portal.
         /// </summary>
-        public string Tag { get; set; }
+        public string Tag { get; set; get; }
 
         /// <summary>
         /// Gets or sets the domain name for the portal.
