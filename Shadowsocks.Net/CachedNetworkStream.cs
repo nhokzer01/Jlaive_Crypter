@@ -21,7 +21,7 @@ namespace Shadowsocks
 
         public Socket Socket { get; private set; }
 
-        private readonly Stream s;
+        private readonly Stream s; 
 
         private byte[] cache = new byte[MaxCache];
         private long cachePtr = 0;
