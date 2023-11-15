@@ -17,7 +17,7 @@ namespace Shadowsocks.CLI
         /// <summary>
         /// Gets or sets whether to prefix group name to server names.
         /// </summary>
-        public bool PrefixGroupName { get; set; }
+        public bool PrefixGroupName { get; set;  }
         
         /// <summary>
         /// Gets or sets the list of servers that are not in any groups.
