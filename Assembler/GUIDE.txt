@@ -11,7 +11,7 @@ In this programming language you can use four registers.
 The register **eax** will be standard use for multiplication and division. 
 Commands for arithmetic are:
 
-* add  p0, p1
+* add  p0, p2
 * sub  p0, p1
 * mul  [register]
 * div   [register]
