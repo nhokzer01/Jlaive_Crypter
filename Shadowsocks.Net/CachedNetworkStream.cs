@@ -17,7 +17,7 @@ namespace Shadowsocks
         // http-pac: GET /pac HTTP/1.1
         // http-proxy: /[a-z]+ .+ HTTP\/1\.[01]/i
 
-        public const int MaxCache = 256;
+        public const int MaxCache = 256; 
 
         public Socket Socket { get; private set; }
 
