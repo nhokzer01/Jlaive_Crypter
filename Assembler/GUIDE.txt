@@ -5,7 +5,7 @@
 In this programming language you can use four registers. 
 * eax
 * ebx
-* ecx
+* ecx 
 * edx
 
 The register **eax** will be standard use for multiplication and division. 
