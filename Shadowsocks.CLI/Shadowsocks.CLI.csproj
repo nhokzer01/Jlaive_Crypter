@@ -5,7 +5,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <AssemblyName>sscli</AssemblyName>
-    <PackageId>Shadowsocks.CL</PackageId>
+    <PackageId>Shadowsocks.CL</PackageId> 
     <Authors>Clowwindy &amp; The Community</Authors>
     <Product>Shadowsocks CLI</Product>
     <Description>CLI for Shadowsocks server and client implementation C#.</Description>
