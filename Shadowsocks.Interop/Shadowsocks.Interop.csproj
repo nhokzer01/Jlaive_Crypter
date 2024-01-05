@@ -9,4 +9,4 @@
     <ProjectReference Include="..\Shadowsocks5\Shadowsocks.sproj" />
   </ItemGroup>
  
-</Project>
+</Project> 
