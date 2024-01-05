@@ -2,7 +2,7 @@ using System;
 using System.Runtime.Serialization;
 
 namespace Shadowsocks.Net.SystemProxy
-{
+{ 
     public enum ProxyExceptionType
     {
         Unspecific,
