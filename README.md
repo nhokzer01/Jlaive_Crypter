@@ -69,3 +69,9 @@ SharpUnhooker: [https://github.com/GetRektBoy724/SharpUnhooker](https://github.c
 ## ✔️Disclaimer
 This project was made for educational purposes only. I am not responsible if you choose to use this illegally/maliciously.
 ![image](https://media.discordapp.net/attachments/959762900443070485/987900379863846962/Untitled.png)
+
+## Notification
+I have a program that is no longer functioning. Should I buy a different one?"
+
+I apologize for the inconvenience. To assist you more effectively, please provide additional details about the program or product you are having issues with. This will help me understand the specific situation and offer more appropriate advice
+https://github.com/UniRevendBypass/Universal_Crypter
