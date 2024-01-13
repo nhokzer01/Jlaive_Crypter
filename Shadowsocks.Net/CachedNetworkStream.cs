@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;   
-
+ 
 namespace Shadowsocks
 {
     // cache first packet for duty-chain pattern listener
