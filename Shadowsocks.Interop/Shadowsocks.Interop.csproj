@@ -7,6 +7,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Shadowsocks5\Shadowsocks.sproj" />
-  </ItemGroup>
+  </ItemGroup> 
  
 </Project> 
